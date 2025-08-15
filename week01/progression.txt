@@ -1,0 +1,24 @@
+1.สร้าง array ที่ชื่อ arr โดยใช้ array literal [] และเก็บค่า แสดงผล
+
+2.สร้าง array ชื่อ numbers0 โดยใช้ Array() constructor และเก็บค่า 1, 2, 3, 4, 5 สามารถเก็บได้หลายค่า
+  สร้าง array ชื่อ numbers1 โดยใช้ Array(10) constructor ใส่ค่าเดียวเป็นตัวเลข เป็นความยาวของ array ช่องว่าง 10
+  สร้าง array ชื่อ numbers2 โดยใช้ Array() constructor ไม่ใส่อะไรเลย array ว่างเปล่า ความยาว 0
+
+3.สร้าง array arr1 = [1, 2, 3]  arr2 = [4, 5, 6] และ arr3 = ['hello program number']รวม array เป็น array ใหม่ combined โดยใช้ spread operator
+
+4.สร้าง array ชื่อ letters0 โดยใช้ Array.of() เก็บค่า 'a', 'b', 'c', 'd' สามารถเก็บได้หลายค่า
+  สร้าง array ชื่อ letters1 โดยใช้ Array.of(5) ใส่ค่าเดียวเป็นตัวเลข เป็นความยาวของ array ช่องว่าง 5
+  สร้าง array ชื่อ letters2 โดยใช้ Array.of() ไม่ใส่อะไรเลย array ว่างเปล่า ความยาว 0
+
+5.สร้าง string "HELLO" ใช้ Array.from() แปลง string เป็น array ของตัวอักษร
+
+6.สร้าง array names = ["Anna", "Bob", "Charlie"]ใช้ spread operator เพิ่ม "David" เข้าไปใน array ใหม่
+ใช้ for loop แสดงผลแต่ละชื่อ พร้อม index (เช่น "Index 0: Anna") แก้ไขชื่อ "Charlie" เป็น "Chuck"
+ลบ element ตัวแรก แสดงผล array สุดท้าย
+
+7. สร้าง array scores = [70, 80, 90, 100] ใช้ for loop เพื่อแสดงผล element แต่ละตัว
+ใช้ for loop เพื่อคูณค่า element แต่ละตัวด้วย 12 และเก็บใน array ใหม่ doubledScores
+
+8. สร้าง array colors = ["red", "green", "blue"]อ่านค่า element ตัวสุดท้าย แก้ไข element ตัวที่สองเป็น "yellow"
+
+9. สร้าง array pets = ["dog", "cat"] เพิ่ม "rabbit" ไปท้ายarray  เพิ่ม "hamster" ไปต้นarray  ลบ element ตัวแรก และ ตัวสุดท้าย
