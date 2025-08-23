@@ -1,0 +1,12 @@
+1. สร้าง object ที่ชื่อ obj0, obj1 โดยใช้ object literal {name: value} และเก็บค่า แสดงผล
+
+2. Person เป็นfunction constructor มีตัวแปรเป็น name, age, sex this จะอ้างถึง object ที่ถูกสร้างใหม่ 
+ใช้ new เรียก Person  จะสร้าง object ใหม่ ค่าที่ใส่ถูกส่งเข้าไปเป็น parameterสุดท้ายได้ object ที่เก็บไว้ใน p1
+
+3. สร้าง object students 3 ตัว ใช้ Object.keys() ดึงชื่อ key ทั้งหมดของ object ออกมาในรูป array
+ถ้าจำนวน key ไม่เท่ากัน แสดงว่า object ไม่เท่ากัน คืนค่า false ทันที วน loop เช็คค่าในแต่ละ key ถ้าพบว่าค่าไม่เท่ากัน คืนค่า false
+ถ้าผ่านทุกเงื่อนไข → คืนค่า true แสดงว่า object ทั้งสองมี key และค่าเหมือนกันทั้งหมด
+
+4. object student มีข้อมูลนักศึกษา id, name, age, major ใช้ { name, age } เพื่อดึง property name และ age ออกมา
+ดึงค่า property major ออกมา เก็บไว้ในตัวแปรชื่อใหม่ว่า field object student ไม่มี property ชื่อ university
+ตัวแปร university เลยใช้ค่า default "KMUTT" แทน
