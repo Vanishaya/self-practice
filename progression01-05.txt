@@ -1,0 +1,27 @@
+Week 1: พื้นฐาน Array
+ฝึกสร้าง Array ด้วยหลายวิธี เช่น [], Array(), Array.of(), Array.from()
+ฝึกใช้งาน Spread Operator (...) เพื่อรวม array หรือเพิ่มค่าลง array
+ฝึก loop ผ่าน array (for loop) เพื่ออ่านค่า, แก้ไขค่า, ลบ element
+ได้รู้จักวิธี จัดการ index และการแก้ไขข้อมูลใน array โดยตรง
+Week 2: พื้นฐาน Object
+ฝึกสร้าง Object ด้วย object literal {} และ constructor function
+เรียนรู้การใช้ this ในการอ้างถึง object ที่ถูกสร้างใหม่
+ใช้ Object.keys() เพื่อดึง key ของ object ออกมาเป็น array และเปรียบเทียบ object
+ฝึก destructuring เพื่อดึง property ออกจาก object พร้อมตั้งชื่อใหม่หรือตั้งค่า default
+Week 3: การเขียนฟังก์ชันจัดการข้อมูล
+เขียนฟังก์ชันประมวลผล array เช่น หาผลรวม, ค่าเฉลี่ย, เช็กค่าที่มีใน array
+ฝึกใช้ typeof และ Number.isFinite เพื่อเช็กว่าเป็นตัวเลขจริง ๆ
+ฝึกจัดการ array ของ object เช่น หา student ที่อายุมากที่สุด
+ฝึก string processing เช่น แปลงเป็น uppercase/lowercase แบบมีเงื่อนไข
+Week 4: Array Methods ขั้นสูง
+ใช้ map / filter / reduce ในงานจริง เช่น ปรับค่า, ดึงค่าบางส่วน, รวมผลลัพธ์
+ฝึกใช้งาน stack (push/pop) และ queue (unshift/shift)
+ฝึกใช้ slice / splice เพื่อดึง/ลบ/เพิ่มค่าใน array
+ใช้ indexOf / includes เพื่อตรวจสอบค่าที่มีใน array
+ใช้ join / toString แปลง array เป็น string
+Week 5: การประยุกต์และจัดการข้อมูล
+เขียนฟังก์ชันที่รวมการใช้ map + filter + reduce (pipeline)
+ใช้ .fill() เพื่อสร้าง array ที่เต็มไปด้วยค่าที่กำหนด
+ใช้ .filter(Boolean) เพื่อลบค่า falsy (0, "", false, null, undefined)
+ใช้ Set เพื่อแก้ปัญหา duplicate words ใน string
+เขียนฟังก์ชันนับความถี่ของคำในประโยคโดย return เป็น object
